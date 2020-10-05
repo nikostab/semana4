@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PerfilesFragment">
+
+<androidx.appcompat.widget.AppCompatImageView
+    android:layout_marginTop="@dimen/margenDiez"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/fotoPerf"
+    android:layout_gravity="center_horizontal"/>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_marginTop="@dimen/margenDiez"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/descPerf"
+        android:textSize="@dimen/textsCV"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="@dimen/margenDiez"
+        android:paddingTop="@dimen/margenDiez"
+        android:id="@+id/gridRec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PetagramSemana4</string>
+    <string name="contacto">Contactanos</string>
+    <string name="about">Acerda de nosotros</string>
+    <string name="tituloContacto">Formulario de contacto</string>
+    <string name="enviar">Enviar</string>
+    <string name="hintMail">Ingrese su Correo electrónico</string>
+    <string name="hintNombre">Ingresa tu nombre</string>
+    <string name="hintMensaje">Ingresa aquí el mensaje que deseas enviarnos</string>
+    <string name="acerca">Aquí iría la descripción del creador de la app o empresa creadora de la misma si eso existiera pero en cambio hay alguien intentando aprender torpemente</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
